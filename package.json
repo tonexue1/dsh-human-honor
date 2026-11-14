@@ -7,7 +7,7 @@
   "main": "./lib/plugin.mjs",
   "exports": { ".": "./lib/plugin.mjs", "./package.json": "./package.json" },
   "bin": { "human-honor": "./bin/human-honor.mjs" },
-  "files": ["bin", "lib", "prompts", "recipes", "cordis.patch.yml", "README.md"],
+  "files": ["bin", "lib", "prompts", "recipes", "cordis.patch.yml", "README.md", "docs/philosophy.md"],
   "engines": { "node": ">=24.9.0", "dsh": ">=0.2.1-rc.2 <0.3.0" },
   "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
   "scripts": { "test": "node --test", "start": "node bin/human-honor.mjs" }
